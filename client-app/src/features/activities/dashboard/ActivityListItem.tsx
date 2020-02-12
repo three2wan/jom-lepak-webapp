@@ -13,7 +13,7 @@ const ActivityListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
             <Item.Image size='tiny' circular src='/assets/user.png' />
             <Item.Content>
               <Item.Header as='a'>{activity.title}</Item.Header>
-              <Item.Description>Hosted by Bob</Item.Description>
+              <Item.Description>Hosted by Syazwan</Item.Description>
             </Item.Content>
           </Item>
         </Item.Group>
@@ -30,7 +30,7 @@ const ActivityListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
           to={`/activities/${activity.id}`}
           floated='right'
           content='View'
-          color='blue'
+          color='orange'
         />
       </Segment>
     </Segment.Group>

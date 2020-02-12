@@ -35,8 +35,8 @@ const LoginForm = () => {
         <Form onSubmit={handleSubmit} error>
           <Header
             as='h2'
-            content='Login to Reactivities'
-            color='teal'
+            content="Login to Let's Hangout!"
+            color='orange'
             textAlign='center'
           />
           <Field name='email' component={TextInput} placeholder='Email' />
@@ -55,7 +55,7 @@ const LoginForm = () => {
           <Button
             disabled={(invalid && !dirtySinceLastSubmit) || pristine}
             loading={submitting}
-            color='teal'
+            color='orange'
             content='Login'
             fluid
           />
