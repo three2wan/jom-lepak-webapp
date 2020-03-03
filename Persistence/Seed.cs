@@ -51,12 +51,12 @@ namespace Persistence
                 {
                     new Activity
                     {
-                        Title = "Past Activity 1",
+                        Title = "Makan McD bersama kawan",
                         Date = DateTime.Now.AddMonths(-2),
-                        Description = "Activity 2 months ago",
+                        Description = "Makan McD bersama kawan",
                         Category = "Drinks",
-                        City = "London",
-                        Venue = "Pub",
+                        City = "Kuala Lumpur",
+                        Venue = "McD",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -69,12 +69,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Past Activity 2",
+                        Title = "Programming Class",
                         Date = DateTime.Now.AddMonths(-1),
-                        Description = "Activity 1 month ago",
+                        Description = "Programming class with new friends",
                         Category = "Culture",
-                        City = "Paris",
-                        Venue = "The Louvre",
+                        City = "Bangi",
+                        Venue = "The Hangout",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -93,12 +93,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 1",
+                        Title = "Konsert",
                         Date = DateTime.Now.AddMonths(1),
-                        Description = "Activity 1 month in future",
+                        Description = "Konser rock ooo",
                         Category = "Music",
-                        City = "London",
-                        Venue = "Wembly Stadium",
+                        City = "Kuala Lumpur",
+                        Venue = "Hard Rock Cafe",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -117,12 +117,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 2",
+                        Title = "Lepak Makan",
                         Date = DateTime.Now.AddMonths(2),
-                        Description = "Activity 2 months in future",
+                        Description = "Makan sama2",
                         Category = "Food",
-                        City = "London",
-                        Venue = "Jamies Italian",
+                        City = "Kajang",
+                        Venue = "Warung Pak Hassan",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -141,12 +141,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 3",
+                        Title = "Party like a rock star",
                         Date = DateTime.Now.AddMonths(3),
-                        Description = "Activity 3 months in future",
+                        Description = "Party like a rock star",
                         Category = "Drinks",
-                        City = "London",
-                        Venue = "Pub",
+                        City = "TTDI",
+                        Venue = "Club Happy",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -165,12 +165,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 4",
+                        Title = "Hangout in a museum",
                         Date = DateTime.Now.AddMonths(4),
-                        Description = "Activity 4 months in future",
+                        Description = "Hangout in a museum",
                         Category = "Culture",
-                        City = "London",
-                        Venue = "British Museum",
+                        City = "Kajang",
+                        Venue = "Museum",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -183,12 +183,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 5",
+                        Title = "Minum and lepak",
                         Date = DateTime.Now.AddMonths(5),
-                        Description = "Activity 5 months in future",
+                        Description = "Minum and lepak tgk Manchester United",
                         Category = "Drinks",
-                        City = "London",
-                        Venue = "Punch and Judy",
+                        City = "Manchester",
+                        Venue = "Old Trafford",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -207,12 +207,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 6",
+                        Title = "Majlis Nasyid",
                         Date = DateTime.Now.AddMonths(6),
-                        Description = "Activity 6 months in future",
+                        Description = "Majlis Nasyid",
                         Category = "Music",
-                        City = "London",
-                        Venue = "O2 Arena",
+                        City = "Nilai",
+                        Venue = "Masjid",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -231,12 +231,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 7",
+                        Title = "Hiking with friends",
                         Date = DateTime.Now.AddMonths(7),
-                        Description = "Activity 7 months in future",
+                        Description = "Hiking with friends",
                         Category = "Travel",
-                        City = "Berlin",
-                        Venue = "All",
+                        City = "Semenyih",
+                        Venue = "Bukit Broga",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
@@ -255,12 +255,12 @@ namespace Persistence
                     },
                     new Activity
                     {
-                        Title = "Future Activity 8",
+                        Title = "Wine tasting",
                         Date = DateTime.Now.AddMonths(8),
-                        Description = "Activity 8 months in future",
+                        Description = "Wine tasting with new friends",
                         Category = "Drinks",
-                        City = "London",
-                        Venue = "Pub",
+                        City = "Kuala Lumpur",
+                        Venue = "Wine place",
                         UserActivities = new List<UserActivity>
                         {
                             new UserActivity
